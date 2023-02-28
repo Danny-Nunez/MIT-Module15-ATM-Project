@@ -1,3 +1,19 @@
+# MIT Module 15 ATM Project
+
+<img width="829" alt="Screen Shot 2023-02-27 at 11 32 50 PM" src="https://user-images.githubusercontent.com/114783191/221754690-6075c7c7-bb77-416b-8648-112a57034bd1.png">
+
+# Learning Outcomes Addressed
+
+ 1. Implement user-friendly UI and React components
+
+ 2. Manage state of various UI elements
+
+ 3. Validate form content in conjunction with state of other components
+
+ 4. Practice communicating project specifications 
+
+ 5. Practice communicating technical decisions you made
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
