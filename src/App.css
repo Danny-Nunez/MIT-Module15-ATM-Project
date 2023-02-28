@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.atmback {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  margin: auto;
+  background-image: url("./atm.png");
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 603px;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.title {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.atmscreen {
+  
+}
+.error-text {
+  display: flex;
+  color: rgb(250, 0, 0);
+}
+#total {
+  margin-top: 60px;
+  
+}
+.atmscreen2  {
+  margin-top: 80px;
+  
+}
+.depositbut {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(49, 172, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  padding: auto;
+}
+.depositbut:hover {
+  background-color: rgb(60, 212, 0);
+}
+.withdrawbut {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(201, 30, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  padding: auto;
+}
+.withdrawbut:hover {
+  background-color: rgb(230, 34, 0);
+}
+.balancebut {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(196, 160, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  padding: auto;
+}
+.buttonwrapper {
+  position: fixed;
+  display: inline-flex;
+  margin-top: 45px;
+}
+.balance {
+  font-weight: 900;
+  font-size: 50px;
+  position: absolute;
+  top: 23%;
+  margin-left: auto;
+  margin-right: auto;
 }
